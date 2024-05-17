@@ -1,0 +1,70 @@
+:root {
+  --color-aqua: #14d9c4;
+  --color-blue-green: #099d8d;
+  --color-aluminum-gray:#d8d8d9;
+  --color-white: #ffffff;
+  
+}
+.team { /*CONTENEDOR*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  min-width: 320px;
+}
+.team_container {
+  padding: 30px 15px;
+  background-color: var(--color-white);
+}
+.team_title { /*TITULO-EQUIPO*/
+  color: var(--color-aqua);
+  text-transform: uppercase;
+  font-family: Rubik;
+  font-size: 24px;
+  line-height: 45px;
+}
+.description {
+  font-family: Rubik;
+  font-size: 16px;
+  align-items: center;
+  line-height: 24px;
+  color: var(--color-letter);
+}
+.strength_container { /*FORTALEZA*/
+  background-color: var(--color-aluminum-gray);
+  width: 100%;
+  margin-top: 30px;
+  padding:30px 15px 0px 15px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.diamond {/*ROMBO*/
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  transform: rotate(45deg);
+  display: flex;
+  position: absolute;
+  top: -19px;
+  z-index: 1;
+}
+.green_title { /*FORTALEZA*/
+  color: var(--color-blue-green);
+  text-transform: uppercase;
+  font-family: Rubik;
+}
+.weakness_container {
+  background-color: var(--color-aluminum-gray);
+  width: 100%;
+  padding:20px 15px 0px 15px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
