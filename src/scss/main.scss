@@ -1,10 +1,9 @@
-body {
-  background-color: white;
-}
+@import './components/nav.scss';
+
 
 :root {
   background-color: #ffffff;
-  color: white;
+  color: rgb(0, 0, 0);
   font: 16px 'Roboto', arial, sans;
   font: 40px 'Arvo';
 }
