@@ -1,0 +1,19 @@
+.img_principal {
+    width: 320px;
+    height: 316px;
+    @media (min-width: 768px) {
+        width: 768px;
+        height: 361px;
+    }
+}
+
+.paragraph_header {
+    background-color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+}
+
