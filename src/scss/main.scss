@@ -1,3 +1,4 @@
+@import './core/reset.scss';
 @import './core/variables.scss';
 @import './components/nav.scss';
 @import './components/about_us.scss'; 
@@ -12,7 +13,7 @@
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
-    "wdth" 75;
+    "wdth" 100;
 }
 
 
