@@ -26,8 +26,13 @@
 
  */
  .hero {
-    background-image: url('../images/programadora.jpg');
+    background-image: url('../images/pagina_1.jpg');
     background-size: cover;
+    height: 25rem;
+    position: relative;
+    bottom: 100px;
+    z-index: -1;
+    
     
  }
 
@@ -38,7 +43,7 @@
     font-weight: 400;
     padding: 10px;
     position: relative;
-    top: 40px;
+    top: 23rem;
     
     left: 10px;
     @media (min-width: 768px) {
