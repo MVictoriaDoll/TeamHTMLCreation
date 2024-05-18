@@ -48,7 +48,7 @@
   transform: rotate(45deg);
   display: flex;
   position: absolute;
-  top: -19px;
+  top: -20px;
   z-index: 1;
 }
 .green_title { /*DEBILIDADES*/
@@ -60,16 +60,20 @@
   background-color: var(--color-aluminum-gray);
   width: 100%;
   padding:20px 15px 0px 15px;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
 @media (min-width: 768px) {
   .container {
     display: flex;
   }
-  
 }
 
