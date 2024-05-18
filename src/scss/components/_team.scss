@@ -70,6 +70,16 @@
   .strength_weakness {
     display: flex;
     flex-direction: row;
+    padding-inline: 45px;
   }
+}
+@media (min-width: 1200px) {
+  .team {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 138px;
+  }
+  
+  
 }
 
