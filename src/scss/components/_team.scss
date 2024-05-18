@@ -1,11 +1,4 @@
-:root {
-  --color-aqua: #14d9c4;
-  --color-blue-green: #099d8d;
-  --color-aluminum-gray:#d8d8d9;
-  --color-white: #ffffff;
-  
-}
-.team { /*CONTENEDOR*/
+.team_section { /*CONTENEDOR*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,12 +6,12 @@
   flex-direction: column;
   min-width: 320px;
 }
-.team_container {
+.team {
   padding: 30px 15px;
-  background-color: var(--color-white);
+  background-color: $color-white;
 }
 .team_title { /*TITULO-EQUIPO*/
-  color: var(--color-aqua);
+  color: $color-aqua;
   text-transform: uppercase;
   font-family: Rubik;
   font-size: 1.5rem;
@@ -29,10 +22,9 @@
   font-size: 16px;
   align-items: center;
   line-height: 24px;
-  color: var(--color-letter);
+  color: $color-dark-grey;
 }
-.strength_container { /*FORTALEZA*/
-  background-color: var(--color-aluminum-gray);
+.strength { /*FORTALEZA*/
   width: 100%;
   padding:30px 15px 0px 15px;
   position: relative;
@@ -52,12 +44,11 @@
   z-index: 1;
 }
 .green_title { /*DEBILIDADES*/
-  color: var(--color-blue-green);
+  color: $color-blue-green;
   text-transform: uppercase;
   font-family: Rubik;
 }
-.weakness_container {
-  background-color: var(--color-aluminum-gray);
+.weakness {
   width: 100%;
   padding:20px 15px 0px 15px;
   display: flex;
@@ -66,14 +57,19 @@
   flex-direction: column;
 }
 
-.container {
+.strength_weakness {
   position: relative;
+  padding-bottom: 30px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $color-aluminum-gray;
 }
 @media (min-width: 768px) {
-  .container {
+  .strength_weakness {
     display: flex;
+    flex-direction: row;
   }
 }
 
