@@ -2,6 +2,12 @@ h1 {
     color: $color-blue-green;
 }
 
+.about_us {
+    display: flex;
+    flex-direction: column;
+}
+
 .images {
-    font-size: 180px;
+    width: 70px;
+    height: 70px;
 }
