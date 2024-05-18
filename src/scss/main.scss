@@ -1,8 +1,12 @@
+@import './core/reset.scss';
 @import './core/variables.scss';
 @import './components/nav.scss';
 @import './components/about_us.scss'; 
 @import './components/_footer.scss';
+<<<<<<< HEAD
 @import './components/_header.scss';
+=======
+>>>>>>> 26e0e0b09c83ee50b56b1540e400b9b98d0654c5
 
 
 :root {
@@ -13,7 +17,7 @@
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
-    "wdth" 75;
+    "wdth" 100;
 }
 
 
