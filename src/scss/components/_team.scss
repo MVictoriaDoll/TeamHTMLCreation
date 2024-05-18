@@ -21,7 +21,7 @@
   color: var(--color-aqua);
   text-transform: uppercase;
   font-family: Rubik;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 45px;
 }
 .description {
@@ -34,7 +34,6 @@
 .strength_container { /*FORTALEZA*/
   background-color: var(--color-aluminum-gray);
   width: 100%;
-  margin-top: 30px;
   padding:30px 15px 0px 15px;
   position: relative;
   display: flex;
@@ -52,7 +51,7 @@
   top: -19px;
   z-index: 1;
 }
-.green_title { /*FORTALEZA*/
+.green_title { /*DEBILIDADES*/
   color: var(--color-blue-green);
   text-transform: uppercase;
   font-family: Rubik;
@@ -66,5 +65,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+
+  }
 }
 
