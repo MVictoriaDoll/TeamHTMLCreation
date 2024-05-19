@@ -1,0 +1,67 @@
+.formulario_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+  
+  }
+  .nombre {
+    margin: 10px 0 7px 0;
+    font-size: 14px;
+    color:#54585a;
+  }
+  .input_nombre {
+    font-size: 14px;
+    padding: 15px 0 15px 15px;
+    border: 1px solid #b8b8b9; 
+    color:#b8b8b9;
+  }
+  .email {
+    color:#54585a;
+    font-size: 14px;
+    margin: 10px 0 7px 0;
+  }
+  .input_email {
+    font-size: 16px;
+    color:#54585a;
+    height: 45px;
+    border: 1px solid #b8b8b9;
+    padding: 15px 0 15px 15px;
+  }
+  .telefono {
+    color:#54585a;
+    font-size: 14px;
+    margin: 10px 0 7px 0;
+  }
+  .input_telefono {
+    font-size: 14px;
+    color:#b8b8b9;
+    height: 45px;
+    border: 1px solid #b8b8b9;
+    padding: 15px 0 15px 15px;
+  }
+  .mensaje {
+    color:#54585a;
+    font-size: 14px;
+    margin: 10px 0 7px 0;
+  }
+  .input_mensaje {
+    height: 105px;
+    border-color:#b8b8b9;
+    padding: 15px 0 15px 15px;
+  }
+  #mensaje::placeholder{
+    display: flex;
+    position: relative;
+    top:-40px;
+  }
+  .boton_enviar{
+    background-color: #099d8d;
+    height: 45px;
+    border: 1px solid #b8b8b9;
+    margin-top: 15px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .asterisco {
+    color: #14d9c4;
+  } 

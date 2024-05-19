@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <form  class="formulario_container" action="">
+    <label class="nombre" for="nombre">Nombre Completo <span class="asterisco">*</span></label>
+    <input class="input_nombre" type="text" id="nombre" name="nombre" placeholder="Nombre..." required>
+    <label class="email" for="email">Email <span class="asterisco">*</span></label>
+    <input  class="input_email" type="email" id="email" name="email" placeholder="nombre.apellidos@gmail.com" required>
+    <label class="telefono" for="telefono">Teléfono</label>
+    <input class="input_telefono" type="tel" id="telefono" name="telefono" placeholder="Ej: 123456789" required>
+    <label class="mensaje" for="mensaje">Mensaje<span class="asterisco">*</span></label>
+    <textarea class="input_mensaje" name="mensaje" placeholder="¿Qué necesitas?" required></textarea>
+    <input class="boton_enviar"type="submit" id="submit" value="Enviar">
+    </form>
+</body>
+</html>
