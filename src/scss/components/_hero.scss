@@ -5,11 +5,12 @@
     background-position: center;
     height: 421px;  
     position: relative;
-    bottom: 100px;
+    bottom: 125px;
     z-index: -1;
+    min-width: 320px;
     @media (min-width: 1200px) {
         height: 490px;
-        
+    
     }
     
  }
