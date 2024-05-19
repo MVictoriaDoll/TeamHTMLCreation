@@ -1,0 +1,27 @@
+.team_section_contact { /*CONTENEDOR*/
+    position: relative;
+    bottom: 150px;
+    min-width: 320px;
+  }
+  .team_contact {
+    padding: 30px 15px;
+    background-color: $color-white;
+  }
+  .team_title_contact { /*TITULO-EQUIPO*/
+    color: $color-blue-green;
+    text-transform: uppercase;
+    font-family: Rubik;
+    font-size: 1.5rem;
+    line-height: 45px;
+  }
+  .description_contact {
+    font-family: Rubik;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    color: $color-dark-grey;
+    @media (min-width: 768px) {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+  }
