@@ -176,13 +176,11 @@ memberinfo {
     .images {
         width: 278px;
         height: 278px;
-        border: solid 5px lightgrey;
-        
-        
+        border: solid 5px lightgrey;  
     }
 
     .about_us {
-        max-width: 90%;
+        max-width: 80%;
     }
 
     .membertext {
@@ -198,7 +196,7 @@ memberinfo {
 
     .name_member {
         text-align: left;
-        margin-top: -15px;
+        margin-top: -60px;
     }
 
 }
