@@ -2,47 +2,48 @@ h1 {
     color: $color-blue-green;
 }
 .container {
-    border: solid 1px lightgray;
-}
-
-.about_us {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    max-width: 90%;
+    border: solid 1px lightgray;
+    text-align: center;
+}
+    
+
+.about_us {
+    max-width: 80%;
+    margin-block: 5px;
 
 }
 
 
-h1 {
-    color: $color-blue-green;
+.about_us_title {
+    color: #099d8d;
     font-size: "Rubik-Medium";
     text-transform: uppercase;
     font-size: 24px;
     justify-content: center;
     align-items: center;
+    text-align: center;
     line-height: 45px;
+/*     margin-block: 15px; */
+    font-weight: bold;
 }
 
 
-figure {
+.figure {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-block: 10px;
+    margin-block: 5px;
 }
-
-figcaption {
-    font-size: 24px;
-    margin-block: 10px;
-}
-
 
 .images {
     width: 180px;
     height: 180px;
+    border-radius: 8px;
+    border: solid lightgray;
 }
 
 .membertext {
@@ -53,7 +54,16 @@ figcaption {
     margin-block: 10px;
     font-size: 16px;    
     color: #54585a;
-    line-height: 24ps;
+    line-height: 24px;
+    padding-block: 10px;
+    
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .social_media {
@@ -65,4 +75,131 @@ figcaption {
     align-items: center;
     list-style-type: none;
     margin-block: 10px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.name_member {
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    margin-block: 10px;
+}
+
+memberinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+
+    .about_us {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 90%;
+        justify-content: flex-start;
+    }
+    .team_members {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .team-member {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: left;
+    
+    }
+
+    .social_media {
+        flex-direction: row;
+       /*align-items: center;*/
+        justify-content: flex-start;
+        /*margin-inline: 0px;*/
+    }
+
+    .team-member:nth-child(even) { 
+        flex-direction: row-reverse;
+    }
+    
+    .team-member img {
+        margin: 0 20PX;
+    }
+
+    .memberinfo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: auto;
+    }
+
+    .team-member:nth-child(even) .memberinfo {
+        align-items: flex-end;
+        justify-content: right;
+        
+    }
+    
+    .team-member:nth-child(even) .name_member {
+        text-align: right;
+    }
+
+    .team-member:nth-child(even) .membertext {
+        text-align: right;
+    }
+
+    .name_member {
+        text-align: left;
+        margin-inline: 10px;
+    }
+
+    .membertext {
+        text-align: left;
+    }
+
+    .images {
+        width: 200px;
+        height: 200px;
+
+    }
+    
+    .name_member:nth-child(even) {
+        text-align: right;
+        margin-inline: 20px;
+    }
+
+
+   .team-member:nth-child(even) .membertext {
+    align-items: flex-end;
+   }
+}
+
+@media (min-width: 1200px) {
+    .images {
+        width: 278px;
+        height: 278px;
+        border: solid 5px lightgrey;
+        
+        
+    }
+
+    .about_us {
+        max-width: 90%;
+    }
+
+    .membertext {
+        font-size: 16px;
+        max-width: 65%;
+        line-height: 24px;
+        margin-inline: 10px;
+    }
+
+    .social_media {
+        margin-inline: 10px;
+    }
+
 }

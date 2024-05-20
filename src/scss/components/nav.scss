@@ -1,5 +1,98 @@
-.title {
-    background-color: $color-aqua;
-    font: $font-title;
+.nav_box {
+  background-color: $color-blue-green;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  opacity: 95%;
+  z-index: 999;
 
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 45px;
+    opacity: 95%;
+    z-index: 999;
+  }
+  @media (min-width: 1280px) {
+    padding: 0 142px;
+    opacity: 95%;
+    z-index: 999;
+  }
+
+  .title {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    color: white;
+    height: 60px;
+    font: $font-title;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 15px 0;
+
+    @media (min-width: 768px) {
+      width: auto;
+      padding: 15px 0;
+    }
+  }
+
+  .nav_menu {
+    background-color: $color-aqua;
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    width: 100%;
+    text-align: center;
+    height: 45px;
+    align-items: center;
+    opacity: 95%;
+    z-index: 999;
+
+    @media (min-width: 768px) {
+      background-color: $color-blue-green;
+      flex-direction: row;
+      width: auto;
+      gap: 15px;
+    }
+  }
+
+  .nav_button {
+    font: $font-title;
+    width: 30%;
+    font-size: 15px;
+    line-height: 30px;
+    @media (min-width: 768px) {
+      width: auto;
+    }
+  }
+
+  .big {
+    width: 40%;
+    @media (min-width: 768px) {
+      width: auto;
+    }
+  }
+
+  .nav_link {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 30px;
+    font: $font-title;
+    color: white;
+    width: 100%;
+    text-align: center;
+    @media (min-width: 768px) {
+      width: auto;
+      text-align: left;
+    }
+  }
+
+  .nav_link:hover {
+    text-decoration: underline;
+    opacity: 50%;
+  }
 }
