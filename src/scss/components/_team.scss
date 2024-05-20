@@ -18,15 +18,16 @@
   line-height: 45px;
 }
 .description {
-  font-family: Rubik;
+  font-family: "Open Sans";
   font-size: 16px;
   align-items: center;
   line-height: 24px;
   color: $color-dark-grey;
 }
 .strength { /*FORTALEZA*/
+  font-family: Rubik;
   width: 100%;
-  padding:30px 15px 0px 15px;
+  padding: 50px 15px 0px 15px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -34,21 +35,23 @@
   flex-direction: column;
 }
 .diamond {/*ROMBO*/
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   background-color: white;
   transform: rotate(45deg);
   display: flex;
   position: absolute;
-  top: -20px;
+  top: -15px;
   z-index: 1;
 }
 .green_title { /*DEBILIDADES*/
   color: $color-blue-green;
   text-transform: uppercase;
   font-family: Rubik;
+  padding-bottom: 10px;
 }
 .weakness {
+  font-family: Rubik;
   width: 100%;
   padding:20px 15px 0px 15px;
   display: flex;
@@ -71,6 +74,9 @@
     display: flex;
     flex-direction: row;
     padding-inline: 45px;
+  }
+  .weakness {
+    padding: 50px 15px 0px 15px;
   }
 }
 @media (min-width: 1200px) {
