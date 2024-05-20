@@ -5,8 +5,11 @@
   }
   .team_contact {
     margin: 25px;
-    
+   @media (min-width:768px) {
+    margin-top: 60px;
+   } 
   }
+
   .team_title_contact { /*TITULO-EQUIPO*/
     color: $color-blue-green;
     text-transform: uppercase;
@@ -24,6 +27,8 @@
     @media (min-width: 768px) {
         margin-left: 150px;
         margin-right: 150px;
+        
+        
     }
     @media (min-width: 1200px) {
         margin-left: 320px;
