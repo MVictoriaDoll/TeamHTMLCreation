@@ -4,6 +4,10 @@
     align-items: center;
     border: solid 1px lightgray;
     text-align: center;
+    scroll-margin-top: 90px;
+    @media (min-width: 768px) {
+        scroll-margin-top: 50px;
+    }
 }
     
 

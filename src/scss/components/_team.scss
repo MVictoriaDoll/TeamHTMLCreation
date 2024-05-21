@@ -5,6 +5,10 @@
   text-align: center;
   flex-direction: column;
   min-width: 320px;
+  scroll-margin-top: 90x;
+  @media (min-width: 768px) {
+    scroll-margin-top: 50px;
+  }
 }
 .team {
   padding: 30px 45px;
