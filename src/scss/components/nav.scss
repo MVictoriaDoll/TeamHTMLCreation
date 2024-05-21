@@ -42,7 +42,13 @@
       width: auto;
       padding: 15px 0;
     }
+
+    a:hover {
+      text-decoration: underline;
+      opacity: 50%;
+    }
   }
+
 
   .nav_menu {
     background-color: $color-aqua;
