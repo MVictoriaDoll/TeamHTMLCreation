@@ -188,14 +188,18 @@
     }
 
 @media (min-width: 1200px) {
+
     .images {
         width: 278px;
         height: 278px;
         border: solid 5px lightgrey;  
     }
 
+    .team-member img {
+        margin: 0px 0px;
+    }
     .about_us {
-        padding: 45px 138px;
+        padding: 45px 138px 45px 138px;
         /*max-width: 80%;*/
     }
 
@@ -203,6 +207,7 @@
         font-size: 16px;
         max-width: 65%;
         line-height: 24px;
+        margin-inline: 10px;
     }
 
     .social_media {
@@ -213,6 +218,7 @@
     .name_member {
         text-align: left;
         margin-top: -60px;
+        margin-inline: 10px;
     }
 
     .memberinfo ul li:not(:last-child)::after {
