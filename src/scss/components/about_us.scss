@@ -82,11 +82,25 @@
     margin-top: 15px;
 }
 
-memberinfo {
+.memberinfo {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.memberinfo ul li {
+ position: relative;
+
+}
+
+.memberinfo ul li:not(:last-child)::after {
+    content: '·';
+    color: grey; 
+    position: absolute;
+    right: -10px;
+    font-size: 15px; 
+    margin-top: -35px;
+  }
 
 @media (min-width: 768px) {
 
@@ -180,7 +194,8 @@ memberinfo {
     }
 
     .about_us {
-        max-width: 80%;
+        padding: 45px 138px;
+        /*max-width: 80%;*/
     }
 
     .membertext {
@@ -198,5 +213,10 @@ memberinfo {
         text-align: left;
         margin-top: -60px;
     }
+
+    .memberinfo ul li:not(:last-child)::after {
+        margin-top: -35px;
+        right: 0px;
+      }
 
 }
