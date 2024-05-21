@@ -53,7 +53,7 @@
 .weakness {
   font-family: Rubik;
   width: 100%;
-  padding:20px 15px 0px 15px;
+  padding: 20px 15px 0px 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,6 +78,9 @@
   .weakness {
     padding: 50px 15px 0px 15px;
   }
+  .team_title {
+    color:$color-blue-green;
+  }
 }
 @media (min-width: 1200px) {
   .team {
@@ -87,6 +90,9 @@
   }
   .strength_weakness {
     padding-inline: 138px;
+  }
+  .team_title {
+    color: $color-blue-green;
   }
 }
 
