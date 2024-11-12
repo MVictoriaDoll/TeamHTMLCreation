@@ -13,12 +13,12 @@ Contact (Contacto): A form for users to get in touch with us.
 Features
 Responsive Design: Ensures optimal viewing experience across various devices.
 Semantic HTML: Utilizes HTML5 semantic elements for better accessibility and SEO.
-CSS Styling: Implements clean and organized CSS for layout and design.
+SCSS & Partials: Used for advanced styling and maintaining a modular codebase.
 
 Technologies Used
-HTML5: For structuring the content.
-CSS: For styling and layout.
-Git & GitHub: For version control and collaboration.
+HTML5
+SCSS
+Git & GitHub
 
 Installation
 To view the project locally:
