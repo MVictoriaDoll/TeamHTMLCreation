@@ -1,4 +1,5 @@
-# Mi proyecto
+# Project
+
 Team HTML Creation
 This project is a collaborative effort to develop a responsive and accessible website using HTML5 and CSS. Our team focused on creating a user-friendly interface with semantic HTML and clean CSS styling.
 
